@@ -1,5 +1,5 @@
-# QUL PrimoVE skin
-This is the front end for QUL's PrimoVE front end (to be launched Dec.10, 2019)
+# QUL Primo VE skin
+This is the front end for QUL's Primo VE front end (to be launched Dec.10, 2019)
 
 # First step
 1. You'll need to create a zip file of the directory with the same name (01OCUL_QU:QU_DEFAULT.zip). Make sure there are no extra files (e.g. .DS_Store) as these will cause an error during upload. 
