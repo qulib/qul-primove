@@ -7,8 +7,8 @@
   var libraryh3lpScript = document.createElement("script");
   libraryh3lpSCript.id = "localScript";
   libraryh3lpScript.src = "https://ca.libraryh3lp.com/js/libraryh3lp.js?767";
-  // document.body.appendChild(s);
-  document.getElementsByTagName("head")[0].appendChild(libraryh3lpScript);
+  document.body.appendChild(libraryh3lpSCript);
+  // document.getElementsByTagName("head")[0].appendChild(libraryh3lpScript);
 
   // app.component("prmLogoAfter", {
   //   template: '<div id="needs-js"></div>'
