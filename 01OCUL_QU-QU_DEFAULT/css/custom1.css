@@ -693,9 +693,6 @@ md-card>:not(md-card-content) img, md-card>img {
   max-width: 300px;
 }
 
-prm-logo .logo-image, prm-logo img {
+/* prm-logo .logo-image, prm-logo img {
   padding-right: 1rem;
-  border-right: 1px solid #fff;
-}
-
-
+} */
