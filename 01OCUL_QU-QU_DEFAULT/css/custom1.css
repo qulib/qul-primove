@@ -696,3 +696,48 @@ md-card>:not(md-card-content) img, md-card>img {
 /* prm-logo .logo-image, prm-logo img {
   padding-right: 1rem;
 } */
+
+/* qul-chat-tab - Chat with librarian */
+div.libraryh3lp {
+  margin-bottom: 4px;
+}
+
+div.libraryh3lp a {
+    background: #002f5e;
+    border: 0;
+    box-sizing: inherit;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1em;
+    padding: 18px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    bottom: -1px;
+    right: 30%;
+    font-family: "Source Sans Pro", sans-serif;
+    transition: padding 0.3s ease-out;
+}
+
+div.libraryh3lp img {
+  border: 2px solid #d9e0e7;
+}
+
+div.libraryh3lp img:hover {
+  border: 2px solid #406486;
+}
+
+div.libraryh3lp span {
+  padding-left: 30px;
+}
+
+.fa.fa-comment {
+    background: url("/discovery/custom/01OCUL_QU-QU_DEFAULT/img/fa-comment.svg") no-repeat 0px 0px;
+    background-size: cover;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+}
