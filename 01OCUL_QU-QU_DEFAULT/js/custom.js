@@ -4,8 +4,6 @@
 
   var app = angular.module("viewCustom", ["angularLoad"]);
 
-})();
-
 /*----------below is the code for libraryh3lp -----------*/
 var s=document.createElement('script');
 s.id='localScript';
@@ -17,3 +15,4 @@ app.component('prmLogoAfter', {
 });
 /*---------------libchat code ends here---------------*/
 
+})();
