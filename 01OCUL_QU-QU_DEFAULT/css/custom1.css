@@ -3152,18 +3152,7 @@ prm-main-menu[menu-type="menu"] .md-button {
 
 /* QUL custom stuff */
 
-/* OMNI logo on homepage */
-md-card > :not(md-card-content) img,
-md-card > img {
-  max-width: 300px;
-}
-
-/* column width on homepage */
-.flex-60, .layout-row > .flex-60 {
-  max-width: 100%;
-}
-
-/* main logo */
+/* main logo and header */
 prm-topbar prm-logo {
   max-width: none;
 }
@@ -3180,7 +3169,50 @@ prm-logo .product-logo {
   display: inline-block;
   width: 100%;
   height: 100%;
-  padding: 15px 0px 15px 15px;
+  padding: 15px 0 0 10px;
+}
+
+@media only screen and (max-width: 599px) {
+  #banner {
+    width: 200px;
+  }
+
+  #banner a:last-of-type {
+    padding: 18px 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  #banner {
+    width: 160px;
+  }
+
+  #banner a:last-of-type {
+    padding: 20px 0 0 10px;
+  }
+
+  prm-search-bookmark-filter .md-icon-button {
+    display: none;
+  }
+
+  #favorites-button {
+    display: block;
+    width: 30px;
+  }
+}
+
+/* homepage */
+
+/* OMNI logo on homepage */
+md-card > :not(md-card-content) img,
+md-card > img {
+  max-width: 300px;
+}
+
+/* column width on homepage */
+.flex-60,
+.layout-row > .flex-60 {
+  max-width: 100%;
 }
 
 /* qul-chat-tab - Chat with librarian */

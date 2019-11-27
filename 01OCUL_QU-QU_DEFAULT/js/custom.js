@@ -4,8 +4,6 @@
 
   var app = angular.module("viewCustom", ["angularLoad"]);
 
-  document.title = "Omni | Queen's University Library";
-
   /*----------below is the code for libraryh3lp -----------*/
   var s = document.createElement("script");
   s.id = "localScript";
