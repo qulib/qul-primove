@@ -3150,8 +3150,6 @@ prm-main-menu[menu-type="menu"] .md-button {
   font-size: 0.85em !important;
 }
 
-/* QUL custom stuff */
-
 /* main logo and header */
 prm-topbar prm-logo {
   max-width: none;
@@ -3172,7 +3170,7 @@ prm-logo .product-logo {
   padding: 15px 0 0 10px;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 790px) {
   #banner {
     width: 200px;
   }
@@ -3180,6 +3178,14 @@ prm-logo .product-logo {
   #banner a:last-of-type {
     padding: 18px 0 0 10px;
   }
+
+  prm-user-area-expandable .md-button {
+    background-color: #002f5e;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+
 }
 
 @media only screen and (max-width: 355px) {
@@ -3259,4 +3265,10 @@ div.libraryh3lp span {
   width: 18px;
   height: 18px;
   margin-top: 2px;
+}
+
+/* login page */
+prm-stand-alone-login .layout-fill {
+  background-color: #002f5e;
+  padding: 2rem;
 }

@@ -9,9 +9,5 @@
   s.id = "localScript";
   s.src = "https://ca.libraryh3lp.com/js/libraryh3lp.js?776";
   document.head.appendChild(s);
-
-  // app.component("prmLogoAfter", {
-  //   template: '<div id="needs-js"></div>'
-  // });
   /*---------------libchat code ends here---------------*/
 })();
