@@ -43,7 +43,7 @@ The development package allows you to configure :
 
   [CSS](./01OCUL_QU-QU_DEFAULT/css/README.md "css documentation")
 
-  [HTML](./01OCUL_QU-QU_DEFAULT/html/README.md "html documentation")
+  [HTML](./01OCUL_QU-QU_DEFAULT/html/homepage/README.md "html documentation")
 
   [Images](./01OCUL_QU-QU_DEFAULT/img/README.md "images documentation")
 
