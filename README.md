@@ -41,15 +41,15 @@ The development package allows you to configure :
 - For each configuration type there is a specified folder in the custom package folder (that can be downloaded form your Primo Back Office)
 - In each folder you will find a specific README.md file with recipes/examples.
 
-  [CSS](./VIEW_CODE/css/README.md "css documentation")
+  [CSS](./01OCUL_QU-QU_DEFAULT/css/README.md "css documentation")
 
-  [HTML](./VIEW_CODE/html/README.md "html documentation")
+  [HTML](./01OCUL_QU-QU_DEFAULT/html/README.md "html documentation")
 
-  [Images](./VIEW_CODE/img/README.md "images documentation")
+  [Images](./01OCUL_QU-QU_DEFAULT/img/README.md "images documentation")
 
-  [JavaScript](./VIEW_CODE/js/README.md "javascript documentation")
+  [JavaScript](./01OCUL_QU-QU_DEFAULT/js/README.md "javascript documentation")
 
--  For `colors.json.txt` instructions - please see [CSS](./VIEW_CODE/css/README.md "css documentation") documentation
+-  For `colors.json.txt` instructions - please see [CSS](./01OCUL_QU-QU_DEFAULT/css/README.md "css documentation") documentation
 
 
 
